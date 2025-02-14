@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* BOX-LEVEL  */
+            background-color: lightgray;
+
+
+            height: 300px; /*Altura*/
+            width: 300px; /*Largura*/
+
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkgray; */
+
+
+            border: 10px solid darkgrey; /* Esta linha substitue as 3 linhas acima, com isso podemos ter um code mais clean */
+
+
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px; /* Esta linha substitue as 4 linhas acima, com isso podemos ter um code mais clean */
+
+
+            margin: auto; /* Margin: auto = centralizar a caixa no meio (não esta funcionando agr pois estamos fazendo manualmente) */ 
+            /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+
+
+            margin: 20px 20px 40px 20px; /* Esta linha substitue as 4 linhas acima, com isso podemos ter um code mais clean */
+
+
+            /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aqua; */
+
+            outline: 5px dashed aqua; /* Esta linha substitue as 3 linhas acima, com isso podemos ter um code mais clean */
+        }
+
+        a { /* INLINE-LEVEL */
+
+            /* border-width: 2px;
+            border-style: dashed;
+            border-color: green; */
+
+
+            border: 2px dashed green;
+
+
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exempolo de caixa box-level</h1>
+    <p>Paragrafos tambem são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>

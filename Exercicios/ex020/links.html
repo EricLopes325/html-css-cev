@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+
+            color: brown;
+            text-decoration: none; /* tira o sublinhado do link */
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited { /* SITE JA VISITADO UMA VEZ*/ 
+            color: rgb(2, 2, 93); 
+        }
+
+        a:active { /* quando é clicado */
+            color: red;
+        }
+
+        .especial {
+            background-color: rgb(239, 122, 122);
+        }
+
+        .especial::before {
+            content: '☾ ';
+        }
+        
+        .especial::after {
+            content: ' ☽';
+        }
+
+
+
+
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+        <Ul>
+            <li><a href="https://github.com/EricLopes325" target="_blank" class="especial">Meu GitHub</a></li>
+            <li><a href="https://www.instagram.com/eric.lopees/" target="_blank">Meu Insta</a></li>
+            <li><a href="https://bsky.app/profile/ericlopees.bsky.social" target="_blank">Meu Bluesky</a></li>
+        </Ul>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: #d3d3d3;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+        header {
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        nav {
+            background-color: #877f7f;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.51);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 222, 137);
+            text-align: center;
+            padding: 2px;
+            margin: 5px;
+        }
+
+        nav >:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: white;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        article > aside {
+            background-color: #877f7f;
+            color: #000000;
+            text-align: center;
+        }
+        
+        article > h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2.2px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticicas">
+            <article>
+                <h2>Notícias sobre o nosso Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, necessitatibus, accusamus in temporibus adipisci sint accusantium quaerat quod ab, quos omnis ad repellendus enim nobis dolor quam non asperiores nulla?</p>
+                <aside>
+                    Artigo escrito pelo Tom Jobin
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados à Eric Lopes</p>
+    </footer>
+</body>
+</html>

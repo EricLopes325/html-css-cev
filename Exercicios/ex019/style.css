@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é # (só pode 1 elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+body {
+    background-color: #477251;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1#principal {
+    font-family: "Kaushan Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #559e66;
+    color: white;
+}
+
+
+h1.aprendendo {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    background-color: rgb(55, 75, 94);
+}
+
+h2.basico {
+    color: rgb(1, 128, 128);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+h2.intermediario {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+h2.avancado {
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
